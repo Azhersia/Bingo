@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Londrina+Outline&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    width: 100%;
+    background-color: #c1bbbb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.box {
+    background-color: #334c2d;
+    height: 840px;
+    width: 840px;
+    box-shadow: 10px 10px 20px #3d3b3b;
+}
+
+.top {
+    font-family: 'Londrina Outline', cursive;
+    color: #e4ded6;
+    text-align: center;
+    font-size: 2.5rem;
+    margin-top: 5px;
+}
+
+.bottom {
+    margin: 15px;
+    background-color: #50461d;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+button {
+    background-color: transparent;
+    height: 140px;
+    width: 162px;
+    border: 5px solid #50461d;
+    cursor: pointer;
+    font-size: 1.7rem;
+    font-weight: 700;
+    background-color: #e4ded6;
+    transition: all 0.25s ease-in-out;
+}
+
+
+
+.locked {
+    background-color: #517d46;
+    border-radius: 50%;
+
+}
